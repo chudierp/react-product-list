@@ -1,10 +1,10 @@
 
 import './App.css';
 
-import {allCats, categoryObjects, categoriesUnique, categoriesWithCounts} from './data'
+import {allCats, categoryObjects, categoriesUnique, categoriesWithCounts, nameCount} from './data'
 
 
-console.log(allCats, categoryObjects, categoriesUnique, categoriesWithCounts)
+console.log(allCats, categoryObjects, categoriesUnique, categoriesWithCounts, nameCount)
 
 
 function App() {

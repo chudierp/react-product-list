@@ -29,8 +29,15 @@ const categoriesWithCounts = allCats.reduce((obj, cat) => {
     return obj
   }, {}) // !!! Be sure to define the initial value as an Object!
 
+  //Challenge 5 - Use Reduce to make an array of objects that have a name and a count.
+const nameCount = categoriesUnique.reduce((acc, cat) => {
+    acc.push({ name: cat, count: categoriesWithCounts[cat] })
 
-export default data
-export {allCats, categoryObjects, categoriesUnique, categoriesWithCounts}
+    return acc
+  }, []) 
+
+
+  export default data
+export {allCats, categoryObjects, categoriesUnique, categoriesWithCounts, nameCount}
 
 
