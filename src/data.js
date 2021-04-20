@@ -37,7 +37,7 @@ const nameCount = categoriesUnique.reduce((acc, cat) => {
   }, []) 
 
 
-  export default data
+export default data
 export {allCats, categoryObjects, categoriesUnique, categoriesWithCounts, nameCount}
 
 
